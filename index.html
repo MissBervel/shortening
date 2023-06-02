@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+
+    <!--Bootstrap 5 CDN Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/31e3177b65.js" crossorigin="anonymous"></script>
+    <title>Goldac77 - URL Shortener</title>
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-sm navbar-light">
+
+            <div class="container-fluid">
+                <img src="./images/logo.svg" alt="" class="navbar-brand">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="nav-menu" class="collapse navbar-collapse text-center">
+                    <div id="header-option-1" class="">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Resources</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div id="header-option-2" class="">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="login_btn">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" id="signup_btn">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <div id="header-content" class="w-100 d-flex justify-content-around">
+            <img src="./images/illustration-working.svg" alt="" class="img-fluid">
+            <div class="">
+                <h1 class="display-1">
+                    More than just shorter links
+                </h1>
+                <p>
+                    Build your brand's recognition and get detailed
+                    insights on how your links are performing.
+                </p>
+    
+                <a href="#" class="gs">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <form action="" class="form">
+            <div id="form-main">
+                <input type="text" name="" id="input" class="form-control" placeholder="Shorten a link here..." required>
+                <button type="submit" id="button" class="btn">Shorten It!</button>
+            </div>
+            <span id="warning" class="ms-4">Please enter a valid URL</span>
+        </form>
+
+        <div id="display">
+
+        </div>
+    </main>
+
+    <div id="stats" class="text-center py-5">
+        <div id="stats_header">
+            <h2>Advanced Statistics</h2>
+            <p>Track how your links are performing across the web with our
+                advanced statistics dashboard
+            </p>
+        </div>
+        
+        <div id="stats_main" class="d-flex justify-content-center my-5 py-5">
+            <div id="stats_1" class="stats_content">
+                <div class="stats_content_img">
+                    <img src="./images/icon-brand-recognition.svg" alt="">
+                </div>
+                <h4>Brand Recognition</h4>
+                <p>Boost your brand recognition with
+                    each click. Generic links don't mean
+                    a thing. Branded links help instil 
+                    confidence in your content
+                </p>
+            </div>
+    
+            <div id="stats_2" class="stats_content">
+                <div class="stats_content_img">
+                    <img src="./images/icon-detailed-records.svg" alt="">
+                </div>
+                <h4>Detailed Records</h4>
+                <p>Gain insights into who is clicking
+                    your links. Knowing when and where 
+                    people engage with your content 
+                    helps inform better decisions.
+                </p>
+            </div>
+    
+            <div id="stats_3" class="stats_content">
+                <div class="stats_content_img">
+                    <img src="./images/icon-fully-customizable.svg" alt="">
+                </div>
+                <h4>Fully Customizable</h4>
+                <p>Improve brand awareness and content
+                    discoverability through customizable 
+                    links, supercharging audience engagement.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="extra">
+        <h1>Boost your links today</h1>
+        <a href="#" class="gs">Get Started</a>
+    </div>
+
+    <footer id="footer" class="d-flex justify-content-around">
+        <div>
+            <img src="./images/logo.svg" alt="">
+        </div>
+        <div id="footer-features">
+            <h3>Features</h3>
+            <ul class="list-unstyled ps-2 lh-lg">
+                <li>
+                    Link Shortening
+                </li>
+                <li>
+                    Branded Links
+                </li>
+                <li>Analytics</li>
+            </ul>
+        </div>
+
+        <div id="footer-resources">
+            <h3>Resources</h3>
+            <ul class="list-unstyled ps-2 lh-lg">
+                <li>Blog</li>
+                <li>Developers</li>
+                <li>Support</li>
+            </ul>
+        </div>
+
+        <div id="footer-company">
+            <h3>Company</h3>
+            <ul class="list-unstyled ps-2 lh-lg">
+                <li>
+                    About
+                </li>
+                <li>
+                    Our Team
+                </li>
+                <li>
+                    Careers
+                </li>
+                <li>
+                    Contact
+                </li>
+            </ul>
+        </div>
+
+        <div id="footer-links">
+            <ul class="list-inline">
+               <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-square-facebook fs-3"></i></a>
+               </li>
+               <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-square-twitter fs-3"></i></a>
+               </li> 
+               <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-pinterest fs-3"></i></a>
+               </li> 
+               <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-instagram fs-3"></i></a>
+               </li>  
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
