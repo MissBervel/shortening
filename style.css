@@ -11,8 +11,8 @@
 }
 
 #signup_btn {
-    background-color: #2acfcf;
-    border-radius: 20px;
+    background-color: #3DA35D;
+    border-radius: 18px;
     color: #fff;
     padding-left: 15px;
     padding-right: 15px;
@@ -23,11 +23,11 @@
 }
 
 h1 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .gs {
-    background-color: #2acfcf;
+    background-color: #034618;
     text-decoration: none;
     color: #fff;
     padding: 10px;
@@ -40,6 +40,9 @@ h1 {
 
 #header-content {
     padding: 20px;
+    background-image: url('./images/hero_pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header-content h1 {
@@ -50,11 +53,14 @@ h1 {
     max-width: 570px;
 }
 
+#hero {
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5%;
+}
+
 #main form {
-    background-image: url('./images/bg-boost-desktop.svg');
-    background-size: contain;
-    background-color: #3b3054;
-    padding: 40px 20px;
+    background-color: #134611;
+    padding:px 350x20px;
     width: 95vw;
     margin: auto;
     border-radius: 10px;
@@ -67,11 +73,11 @@ h1 {
 }
 
 form span {
-    color: #c15b69;
+    color: #ebb1b9;
 }
 
 #main, #stats {
-    background-color: #f0f1f6;
+    background-color: #fff;
     margin: auto;
     padding-top: 20px;
 }
@@ -81,7 +87,7 @@ form span {
 }
 
 #button {
-    background-color: #2acfcf;
+    background-color: #134611;
     color: #fff;
     width: 23%;
 }
@@ -96,10 +102,6 @@ form span {
     padding-top: 20px;
 }
 
-.display_content span {
-    color: #2acfcf;
-}
-
 #url {
     overflow-x: hidden;
 }
@@ -110,35 +112,43 @@ form span {
 }
 
 #shortened button {
-    background-color: #2acfcf;
+    background-color: #134611;
     color: #fff;
     width: 15%;
 }
 
 #stats p {
-    color: #a1a0a0; 
+    color: #212529; 
 }
 
 .stats_content {
     width: 20%;
     margin: 0 40px;
-    background-color: #fff;
+    background-color: #070606;
     border-radius: 10px;
     padding: 60px 20px 0 20px;
-    text-align: left;
+    text-align: right;
     position: relative;
+}
+
+.stats_content p {
+    color: #fff !important;
 }
 
 .stats_content_img {
     border-radius: 50%;
     width: min-content;
-    background-color: #232127;
+    background-color: #ffffff;
     position: absolute;
     top: -30px;
 }
 
 .stats_content img {
     padding: 15px;
+}
+
+.stats_content h4 {
+    color: #FFF;
 }
 
 #stats_2 {
@@ -150,10 +160,9 @@ form span {
 }
 
 #extra {
-    color: #fff;
-    background-image: url('./images/bg-boost-desktop.svg');
+    color: #ffffff;
     background-size: cover;
-    background-color: #3b3054;
+    background-color: #0066ff;
     text-align: center;
     padding: 60px 0;
 }
@@ -176,7 +185,7 @@ footer h3 {
 }
 
 footer li {
-    color: #bdbbc0;
+    color: #ffffff;
 }
 
 footer i{
@@ -187,7 +196,7 @@ footer i{
 @media screen and (max-width: 576px) {
     #nav-menu {
         display: block;
-        background-color: #3b3054;
+        background-color: #362266;
         margin-top: 1vh !important;
         border-radius: 10px;
         padding: 2vh 0;
@@ -239,8 +248,8 @@ footer i{
 
     #shortened button {
        width: 50%;
-       margin-left: 20% !important;
-       margin-right: auto !important;
+       margin-right: 20% !important;
+       margin-left: auto !important;
     }
 
     #stats_main {
@@ -275,8 +284,8 @@ footer i{
     }
 
     #header-content img {
-        margin-left: auto;
         margin-right: auto;
+        margin-left: auto;
         display: block;
     }
     
@@ -286,8 +295,8 @@ footer i{
 @media screen and (min-width: 578px) and (max-width: 1020px) {
     .stats_content {
         margin: auto;
-        margin-left: 10px;
         margin-right: 10px;
+        margin-left: 10px;
         width: 50vw;
         padding-bottom: 10px;
     }
